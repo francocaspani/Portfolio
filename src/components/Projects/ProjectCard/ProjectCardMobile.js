@@ -13,7 +13,7 @@ function ProjectCardMobile() {
       {ProjectListMobile.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-            <img src={list.img} alt={list.name} />
+            <img src={list.img} alt={list.name} className='imgMobile'/>
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>

@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: 1s;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -147,11 +148,18 @@ video {
   background-color: gray;
   color: #fff;
 }
-
+.imgMobile:hover{
+  transition: 1s;
+  transform: none;
+}
 /* ------------------------------------ Media for Container */
 @media (min-width: 576px) {
   .Container {
     max-width: 540px;
+  }
+  .imgMobile:hover{
+    transition: 1s;
+    transform: scale(1.8)
   }
 }
 @media (min-width: 768px) {
