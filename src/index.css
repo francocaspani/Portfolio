@@ -152,9 +152,6 @@ video {
   transition: 1s;
   transform: none;
 }
-.imgMobile{
-  z-index: 20;
-}
 .ctaPreview{
   color: #fff;
   text-align: center;
