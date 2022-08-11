@@ -14,9 +14,11 @@ function ProjectCard({list}) {
           <CardLeft
           onMouseEnter={()=> setHover(true)}
           onMouseLeave={()=> setHover(false)}
-          onClick={()=> setHover(!hover)}
+          onTouchStart={()=> setHover(!hover)}
           >
+            {hover? <p className="ctaPreview clicked">Touch me for a preview!</p>:<p className="ctaPreview">Touch me for a preview!</p>}
             {hover? <img src={list.video} alt={list.name} className='imgMobile'/>:<img src={list.img} alt={list.name} className='imgMobile'/>}
+            
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>

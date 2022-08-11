@@ -1,19 +1,11 @@
 // --------------------------------------- Project List
-import myh from '../Assets/myh.png'
-import mp from '../Assets/mp.png'
-import mt from '../Assets/mt.png'
-import ae from '../Assets/ae.png'
-import mtNative2 from '../Assets/mtNative2.PNG'
-import mihNative from '../Assets/mihNative.PNG'
 import video from '../Assets/mtGif.gif'
-import video2 from '../Assets/mihGif.gif'
-import video3 from '../Assets/mpGif.gif'
-import video4 from '../Assets/aeGif.gif'
+
 
 export const ProjectList = [
   {
-    img: myh,
-    video: video2,
+    img: 'https://i.imgur.com/sKJxfdQ.png',
+    video: 'https://i.imgur.com/nlMyrXo.gif',
     title: "My Industrial Home",
     description: "React e-commerce website. With user authentication, integration with PayPal, and custom REST",
     tech_stack: "HTML, CSS, MERN",
@@ -21,7 +13,7 @@ export const ProjectList = [
     demo_url: "https://my-industrial-home-challange-mind-hub.vercel.app/",
   },
   {
-    img: mt,
+    img: 'https://i.imgur.com/2BawY0o.png',
     video: video,
     title: "My Tinerary",
     description:
@@ -31,18 +23,18 @@ export const ProjectList = [
     demo_url: "https://mytinerary-caspani.vercel.app/",
   },
   {
-    img: mp,
+    img: 'https://i.imgur.com/v0kK8l2.png',
     title: "Mindy Pet Shop",
-    video: video3,
+    video: 'https://i.imgur.com/i2rQmXp.gif',
     description: "Pet Shop E-commerce website developed in 48hrs in groups for MindHub",
     tech_stack: "HTML, CSS, JavaScript",
     github_url: "https://github.com/francocaspani/MindyPetshopMindhub",
     demo_url: "https://francocaspani.github.io/MindyPetshopMindhub/",
   },
   {
-    img: ae,
+    img: 'https://i.imgur.com/pCEdAFV.png',
     title: "Amazing Events",
-    video: video4,
+    video: 'https://i.imgur.com/LnJREoy.gif',
     description:
       "Simple events website developed with JavaScript vanilla",
     tech_stack: "HTML, CSS, JavaScript",
@@ -53,14 +45,16 @@ export const ProjectList = [
 
 export const ProjectListMobile = [
   {
-    img: mihNative,
+    img: 'https://i.imgur.com/VplYhPv.png',
+    video: 'https://i.imgur.com/lwamwPT.gif',
     title: "My Industrial Home Mobile App",
     description: "React Native e-commerce app. With user authentication and custom REST",
     tech_stack: "React Native",
     github_url: "https://github.com/francocaspani/my-industrial-home-react-native",
   },
   {
-    img: mtNative2,
+    img: 'https://i.imgur.com/IGlp1gU.png',
+    video: 'https://i.imgur.com/Lol46pQ.gif',
     title: "My Tinerary Mobile App",
     description:
       "React Native app. With user authentication, and custom REST API",

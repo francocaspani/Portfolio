@@ -18,10 +18,9 @@ export const CardLeft = styled.div`
   background: none;
   border-radius: 10px;
   justify-self: center;
-
   img {
-    border-radius: 10px;
-    height: 300px;
+    border-radius: 22px;
+    height: 350px;
     object-fit : contain
   }
 `;
