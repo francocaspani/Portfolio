@@ -1,5 +1,4 @@
-import React from "react";
-import { ProjectList } from "../../../data/ProjectData";
+import React, { useState } from "react";
 import {
   Card,
   CardLeft,
@@ -7,13 +6,17 @@ import {
   Stack,
   BtnGroup,
 } from "./ProjectCardElements";
-function ProjectCard() {
+function ProjectCard({list}) {
+  const [hover, setHover] = useState(false)
   return (
     <>
-      {ProjectList.map((list, index) => (
-        <Card key={index}>
-          <CardLeft>
-            <img src={list.img} alt={list.name} className='imgMobile'/>
+        <Card>
+          <CardLeft
+          onMouseEnter={()=> setHover(true)}
+          onMouseLeave={()=> setHover(false)}
+          onClick={()=> setHover(!hover)}
+          >
+            {hover? <img src={list.video} alt={list.name} className='imgMobile'/>:<img src={list.img} alt={list.name} className='imgMobile'/>}
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
@@ -42,7 +45,6 @@ function ProjectCard() {
             </BtnGroup>
           </CardRight>
         </Card>
-      ))}
     </>
   );
 }

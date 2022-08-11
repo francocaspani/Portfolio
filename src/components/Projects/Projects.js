@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import ProjectCardMobile from "./ProjectCard/ProjectCardMobile";
+import { ProjectList } from "../../data/ProjectData";
 function Projects() {
   return (
     <>
@@ -24,7 +25,12 @@ function Projects() {
       <div className="ProjectWrapper" id="projects">
         <div className="Container">
           <div className="SectionTitle">Web Projects</div>
-          <ProjectCard />
+          {ProjectList.map((list, i)=>{
+            return(
+              <ProjectCard list={list} key={i}/>
+            )
+          })}
+         
         </div>
         <div className="Container">
           <div className="SectionTitle">Mobile Projects</div>

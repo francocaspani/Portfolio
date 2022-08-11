@@ -5,10 +5,15 @@ import mt from '../Assets/mt.png'
 import ae from '../Assets/ae.png'
 import mtNative2 from '../Assets/mtNative2.PNG'
 import mihNative from '../Assets/mihNative.PNG'
+import video from '../Assets/mtGif.gif'
+import video2 from '../Assets/mihGif.gif'
+import video3 from '../Assets/mpGif.gif'
+import video4 from '../Assets/aeGif.gif'
 
 export const ProjectList = [
   {
     img: myh,
+    video: video2,
     title: "My Industrial Home",
     description: "React e-commerce website. With user authentication, integration with PayPal, and custom REST",
     tech_stack: "HTML, CSS, MERN",
@@ -17,6 +22,7 @@ export const ProjectList = [
   },
   {
     img: mt,
+    video: video,
     title: "My Tinerary",
     description:
       "React website & React Native app. With user authentication, and custom REST API",
@@ -27,6 +33,7 @@ export const ProjectList = [
   {
     img: mp,
     title: "Mindy Pet Shop",
+    video: video3,
     description: "Pet Shop E-commerce website developed in 48hrs in groups for MindHub",
     tech_stack: "HTML, CSS, JavaScript",
     github_url: "https://github.com/francocaspani/MindyPetshopMindhub",
@@ -35,6 +42,7 @@ export const ProjectList = [
   {
     img: ae,
     title: "Amazing Events",
+    video: video4,
     description:
       "Simple events website developed with JavaScript vanilla",
     tech_stack: "HTML, CSS, JavaScript",
