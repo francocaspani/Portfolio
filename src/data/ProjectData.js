@@ -48,7 +48,7 @@ export const ProjectListMobile = [
     img: 'https://i.imgur.com/VplYhPv.png',
     video: 'https://i.imgur.com/lwamwPT.gif',
     title: "My Industrial Home Mobile App",
-    description: "React Native e-commerce app. With user authentication and custom REST",
+    description: "React Native e-commerce app. With user authentication and custom REST API",
     tech_stack: "React Native",
     github_url: "https://github.com/francocaspani/my-industrial-home-react-native",
   },
