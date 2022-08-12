@@ -7,7 +7,7 @@ export const ProjectList = [
     img: 'https://i.imgur.com/sKJxfdQ.png',
     video: 'https://i.imgur.com/nlMyrXo.gif',
     title: "My Industrial Home",
-    description: "React e-commerce website. With user authentication, integration with PayPal, and custom REST",
+    description: "React e-commerce website. With user authentication, integration with PayPal, and custom REST API",
     tech_stack: "HTML, CSS, MERN",
     github_url: "https://github.com/francocaspani/my-industrial-home-challangeMindHub",
     demo_url: "https://my-industrial-home-challange-mind-hub.vercel.app/",
