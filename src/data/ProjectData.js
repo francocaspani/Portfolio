@@ -15,7 +15,7 @@ export const ProjectList = [
   {
     img: 'https://i.imgur.com/2BawY0o.png',
     video: video,
-    title: "My Tinerary",
+    title: "MyTinerary",
     description:
       "React website & React Native app. With user authentication, and custom REST API",
     tech_stack: "HTML, CSS, MERN",
@@ -55,7 +55,7 @@ export const ProjectListMobile = [
   {
     img: 'https://i.imgur.com/IGlp1gU.png',
     video: 'https://i.imgur.com/Lol46pQ.gif',
-    title: "My Tinerary Mobile App",
+    title: "MyTinerary Mobile App",
     description:
       "React Native app. With user authentication, and custom REST API",
     tech_stack: "React Native",
